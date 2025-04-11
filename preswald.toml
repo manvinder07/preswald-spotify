@@ -1,0 +1,20 @@
+[project]
+title = "Spotify Hype"
+version = "0.1.0"
+port = 8501
+slug = "preswald-project"  
+entrypoint = "hello.py"    
+
+[branding]
+name = "Spotify Hyped Songs"
+logo = "images/spotify.png"
+favicon = "images/headphones.png"
+primaryColor = "#F89613"
+
+[data.popular_spotify_songs]
+type = "csv"
+path = "data/popular_spotify_songs.csv"
+
+[logging]
+level = "INFO"  
+format = "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
